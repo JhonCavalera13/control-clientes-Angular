@@ -1,0 +1,25 @@
+body{
+    background: url('./assets/img/pattern.png');
+    background-attachment: fixed;
+}
+.form-box input[type='email'],
+.form-box input[type='password'],
+.form-box input[type='submit']{
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.50s; 
+    
+}
+.form-box input[type='submit']{
+    background: #17a2b8;
+}
+
+.form-box input[type='email']:focus,
+.form-box input[type='password']:focus{
+    width: 90%;
+}
+
+.form-box input[type='submit']:hover{
+    background: none;
+}
